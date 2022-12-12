@@ -1,0 +1,28 @@
+.btn {
+    margin-left: 2%;
+    color: antiquewhite;
+}
+.btn2 {
+    margin-left: 2%;
+    color: #000;
+}
+.btn:hover {
+    background-color:#FE3E57 ;
+}
+.btn2:hover {
+    background-color:#FE3E57 ;
+    color: aliceblue;
+}
+.typo {
+    color: #FE3E57;
+    font-family: lobster;
+    font-size: 3rem;
+}
+.drawer {
+    background-image: radial-gradient(
+        farthest-corner at bottom,
+    #fff -120%,
+    #0B0952 60%
+          
+          )
+}
