@@ -10,6 +10,7 @@ import lk from '../../assets/lk.png'
 import yt from '../../assets/yt.png'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 const Body = () => {
   const darkMode = useSelector((state)=> state.theme.darkMode)
   console.log(darkMode)
@@ -67,7 +68,8 @@ const Body = () => {
       
     </div>
     <About /> 
-    <Contact /> 
+    <Contact />
+    <Footer />  
     </>
   )
 }

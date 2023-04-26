@@ -34,8 +34,8 @@ const getDesignTokens = (mode) => ({
           },
           divider: "#004282",
           background: {
-            default: "#000e21",
-            paper: "#000e21",
+            default: "#0B0952",
+            paper: "#0B0952",
           },
           text: {
             primary: "#fff",
