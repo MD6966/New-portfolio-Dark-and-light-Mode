@@ -14,28 +14,25 @@ const useStyles = makeStyles((theme)=> ({
         marginTop:'1rem',
         fontFamily:'Signika Negative',
         fontSize:'1.35rem',
-        // textAlign:'center'
-    },
-    pBar: {
-        "& .MuiLinearProgress-barColorPrimary": {
-            backgroundColor: "#39C4FF",
-        },
+        textAlign:'center'
     },
 }))
 
-
-const Creativity = () => {
+const SKillsComp = (props) => {
+    const {val, title, color, img, height} = props
     const classes = useStyles()
+    
   return (
     <div>
       <Card elevation={0} sx={{background:'none'}}>
         <Stack>
-            <Typography className={classes.heading} sx={{color:'#39C4FF'}}>
-                60%
+            <Typography className={classes.heading} sx={{color:props.color}}>
+                <img src={img} alt="logo" height={height} />
             </Typography>
-            <LinearProgress value={60} variant='determinate' className={classes.pBar} sx={{background:'#e2dcdc'}}/> 
+            <LinearProgress value={val} variant='determinate' 
+            sx={{ backgroundColor: "#e2dcdc", '& .MuiLinearProgress-barColorPrimary': { backgroundColor: color }}}  /> 
             <Typography className={classes.subtitle}>
-                Back End Development
+             {title}
             </Typography>
         </Stack>
     </Card>
@@ -43,4 +40,4 @@ const Creativity = () => {
   )
 }
 
-export default Creativity
+export default SKillsComp

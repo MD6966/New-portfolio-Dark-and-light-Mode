@@ -91,8 +91,8 @@ const Header = () => {
          </HashLink>
           </Button>
           <Button className={darkMode ? 'btn' : 'btn2'}  > 
-         <HashLink to="#services" style={{textDecoration:'none', color: darkMode ? '#ffffff' : '#000000'}} smooth>
-          services
+         <HashLink to="#experience" style={{textDecoration:'none', color: darkMode ? '#ffffff' : '#000000'}} smooth>
+          Work Experience
          </HashLink>
           </Button>
           <Button className={darkMode ? 'btn' : 'btn2'}  > 

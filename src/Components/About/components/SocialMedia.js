@@ -10,7 +10,7 @@ const Data = [
   {name:'Facebook', to:"", icon:"/Assets/fb.png", height:50, class:"social"},
   {name:'YouTube', to:"", icon:"/Assets/yt.png", height:80, class:"yts"},
   {name:'Instagram', to:"", icon:"/Assets/insta.png", height:60, class:"yts"},
-  {name:'Gmail', to:"", icon:"/Assets/gmail.png", height:30, class:"yts"},
+  {name:'Gmail', to:"mailto:smudasser36@gmail.com", icon:"/Assets/gmail.png", height:30, class:"yts"},
 
 ]
 

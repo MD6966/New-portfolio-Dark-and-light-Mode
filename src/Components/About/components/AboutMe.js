@@ -51,7 +51,7 @@ const AboutMe = () => {
                 If you need a talented web developer who can deliver high-quality solutions, look no further than Mudasser 😍.
                 </Typography>
                 <Button variant='contained'className={classes.btn} target='_blank' 
-                href='https://drive.google.com/file/d/1P_foxfhV2zOK2WHqMoivHwkJGe65kOL6/view?usp=sharing'
+                href='https://drive.google.com/file/d/1zsbpLaoA5mu4AqGEDtJaaZ38iqUXPg7a/view?usp=sharing'
                 > Download CV</Button>
         </Grid>
       </Grid>
