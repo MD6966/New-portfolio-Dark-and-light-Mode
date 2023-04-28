@@ -34,7 +34,7 @@ const SocialMediaComponent = (props) => {
             </Box>
         </div>
         <Box sx={{ml:'1rem'}}>
-            <StyledLink href={to}> {name} </StyledLink>
+            <StyledLink href={to} target='_blank'> {name} </StyledLink>
         </Box>
     </div>
   )

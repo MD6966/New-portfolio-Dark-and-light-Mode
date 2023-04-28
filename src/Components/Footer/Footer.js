@@ -13,7 +13,7 @@ const Footer = () => {
     ]
   return (
     <div >
-        <Card elevation={2} sx={{height:'20vh'}} >
+        <Card elevation={2} sx={{height:'20vh', background:'#000'}} >
             <Typography sx={{textAlign:'center', fontWeight:'bold'}} variant='h3'>
                 Follow me here
             </Typography>
