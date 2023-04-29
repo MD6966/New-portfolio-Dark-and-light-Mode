@@ -71,7 +71,7 @@ const Body = () => {
     <About /> 
     <WorkExperience />
     <Contact />
-    <Footer />  
+    {/* <Footer />   */}
     </>
   )
 }

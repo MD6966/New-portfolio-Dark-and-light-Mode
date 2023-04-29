@@ -18,6 +18,7 @@ const Contact = () => {
     autoplay: true, 
     animationData: ContactFile,
     rendererSettings: {
+      
       preserveAspectRatio: 'xMidYMid slice'
     }
   };
@@ -66,7 +67,15 @@ const Contact = () => {
               height={300}
               width={300}/>
               </Box>
-              <Typography variant='h4' style={{fontFamily:'Signika Negative'}}> Call Me: </Typography>
+              <Typography variant='subtitle' style={{fontFamily:'Signika Negative'}}>
+              DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+              </Typography>
+              <Typography variant='h5' style={{fontFamily:'Signika Negative'}}> Call Me: 
+              <Typography 
+              variant='h5' 
+              component='span'
+              style={{cursor: 'pointer' }}
+              onClick={() => window.location.href = 'tel:+923056012297'}> + 923056012297</Typography> </Typography>
 
           </Box>
         </Grid>

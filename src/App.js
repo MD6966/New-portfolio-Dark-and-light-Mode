@@ -48,7 +48,7 @@ const getDesignTokens = (mode) => ({
 
 function App() {
   const dispatch = useDispatch()
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState("dark");
   const darkMode = useSelector((state)=> state.theme.darkMode)
   useMemo(() => {
     if (darkMode) {
